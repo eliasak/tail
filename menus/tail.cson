@@ -1,0 +1,21 @@
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle Goto Bottom On Change'
+      'command': 'tail:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Tail'
+      'submenu': [
+        {
+          'label': 'Toggle Goto Bottom On Change'
+          'command': 'tail:toggle'
+        }
+      ]
+    ]
+  }
+]

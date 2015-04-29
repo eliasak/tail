@@ -1,0 +1,16 @@
+{
+  "name": "tail",
+  "main": "./lib/tail",
+  "version": "0.0.0",
+  "description": "Atom Tail log viewer is a simple and short script that moves the editor to the bottom when the file changes",
+  "activationCommands": {
+    "atom-workspace": "tail:toggle"
+  },
+  "repository": "https://github.com/eliasak/tail",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
